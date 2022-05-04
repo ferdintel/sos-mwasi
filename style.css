@@ -23,7 +23,8 @@ nav{
     background-color: white;
 }
 nav img{
-    width: 170px;
+    max-width: 200px;
+    padding-left: 5%;
 }
 nav ul{
     width: 64%;
@@ -45,15 +46,52 @@ nav ul li a{
     color: white;
     font-weight: bold;
     border-radius: 10px;
+    width: 225px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .btn_pink{
-    background-color: #F5119C;
-    padding: 10px 25px;
+    background-color: #f5119c;
     color: white;
-    font-weight: bold;
+    width: 225px;
+    height: 70px;
     border-radius: 10px;
-    width: fit-content;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
 }
-.btn_pink .btn_content #num{
-    margin-bottom: 50px;
+
+.urgence{
+    font-weight: bold;
+    font-size: 14px
+}
+
+.phone{
+    font-weight: bold;
+    font-size: 22px
+}
+
+.phone-icon{
+    font-size: 46px
+}
+
+.header-content{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    width: 40%;
+    transform: translatey(-50%);
+    font-family: 'Quicksand' , sans-serif;
+}
+.header-content h1{
+    color: white;
+    font-size: 42px;
+}
+.header-content p{
+    color: white;
+    margin-bottom: 25px;
+    padding-top: 30px;
 }
