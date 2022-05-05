@@ -6,6 +6,7 @@ body{
     padding: 0;
     margin: 0;
     width: 100vw;
+    font-family: 'Quicksand' , sans-serif;
 }
 header{
     background-image: url(images/african-woman.jpg);
@@ -94,4 +95,33 @@ nav ul li a{
     color: white;
     margin-bottom: 25px;
     padding-top: 30px;
+}
+
+#call-to-action{
+    background-color: #0096F5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 5%;
+}
+
+.action{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-icon{
+    font-size: 80px;
+}
+
+.action-title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.action-description{
+    text-align: center;
 }
