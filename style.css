@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 *{
-    box-sizing: border-box;   
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+}
+a{
+    text-decoration: none;
 }
 body{
     padding: 0;
@@ -28,10 +33,12 @@ nav img{
     padding-left: 5%;
 }
 nav ul{
-    width: 64%;
+
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
+    margin-left: 30px;
 }
 nav ul li{
     list-style-type: none;
@@ -41,14 +48,18 @@ nav ul li a{
     text-decoration: none;
     
 }
+
+.nav-menu{
+    flex:1;
+    margin-left: 10%;
+}
 .btn_blue{
     background-color: #0096F5;
-    padding: 20px 25px;
+    padding: 15px 35px;
     color: white;
-    font-weight: bold;
+    font-weight: 500;
     border-radius: 10px;
-    width: 225px;
-    height: 70px;
+    max-width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,26 +68,27 @@ nav ul li a{
 .btn_pink{
     background-color: #f5119c;
     color: white;
-    width: 225px;
-    height: 70px;
+
     border-radius: 10px;
-    padding: 10px 25px;
+    padding: 5px 25px;
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
+    margin-left: 10px;
 }
 
 .urgence{
     font-weight: bold;
-    font-size: 14px
+    font-size: 12px
 }
 
 .phone{
-    font-weight: bold;
-    font-size: 22px
+    font-weight: 600;
+    font-size: 16px
 }
 
 .phone-icon{
-    font-size: 46px
+    font-size:32px
 }
 
 .header-content{
@@ -102,7 +114,7 @@ nav ul li a{
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 50px 5%;
+        padding: 50px 5%;
 }
 
 .action{
